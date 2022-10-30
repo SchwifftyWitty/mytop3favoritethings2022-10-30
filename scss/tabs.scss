@@ -1,0 +1,30 @@
+.tabs{
+    border: 5px solid white;
+    padding: 30px;
+    max-width: 800px;
+    width: 85%;
+    margin: auto;
+    opacity: 0;
+    transform: translateX(0);
+    background: #2c2e2c;
+    
+    img{
+        margin-top: 15px;
+        border: 2px solid white;
+    }
+    
+}
+
+.tabAnimation{
+   transform: translateX(0);
+    opacity: 1;
+    transition: 1s;
+}
+
+.tab{
+    display: none;
+}
+
+.block{
+    display: block;
+}

@@ -1,0 +1,27 @@
+button{
+    border: 3px solid black;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 50px;
+    font-family: lato;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+.no-1{
+    background: #FFD700;
+}
+
+.no-2{
+    background: #C0C0C0;
+}
+
+.no-3{
+    background: #cd7f32;
+}
